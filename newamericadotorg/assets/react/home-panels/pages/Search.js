@@ -192,7 +192,7 @@ export default function Search({location, history}) {
         </h5>
       </div>
 
-      <button class="button" onClick={onClickSearch}>Search</button>
+      <button className="button" onClick={onClickSearch}>Search</button>
 
       <SearchResultList
         results={results}
